@@ -1,0 +1,1116 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-family: 'Ysabeau SC', sans-serif;
+  padding: 30px;
+  margin: 15px;
+  position: absolute;
+}
+
+.bodydiv {
+  height: 100%;
+  width: 100%;
+}
+
+.ul {
+  color: white;
+  list-style: none;
+  font-family: 'Ysabeau SC', sans-serif;
+  margin: 175px 40px 40px 5px;
+}
+
+.nav-items {
+  margin: 40px;
+  font-size: large;
+}
+
+.profile {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 20px;
+  display: inline;
+  padding: 2px;
+  position: absolute;
+
+}
+
+.edit {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+}
+
+#vertical-line {
+  /* border: none;
+    border-left: 1px solid white; */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+  height: 900px;
+  margin: 0 240px;
+  position: absolute;
+}
+
+.navbar {
+  position: fixed;
+}
+
+@media screen and (max-width:480px) {
+  body {}
+}
+
+.story-div {
+  height: 110px;
+  width: 550px;
+  /* border: solid white; */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+  border-radius: 10px;
+  margin-left: 450px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+.inside-story-div {
+
+  height: 50px;
+  width: 50px;
+  border: solid purple 3px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.story-text {
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+.element-container-img {
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.element-container-text {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.me-pic {
+
+  height: 58px;
+  width: 58px;
+  border-radius: 30px;
+  position: absolute;
+  left: 1150px;
+  top: 50px;
+
+}
+
+.me-name {
+
+
+  position: absolute;
+  left: 1220px;
+  top: 30px;
+  color: white;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+.me-bio {
+
+  position: absolute;
+  left: 1220px;
+  top: 53px;
+  color: grey;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+.me-switch {
+
+  position: absolute;
+  left: 1420px;
+  top: 40px;
+  color: skyblue;
+  font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.me-hobby {
+
+  position: absolute;
+  left: 1150px;
+  top: 123px;
+  color: grey;
+  font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.me-hobby-astro-img {
+
+  height: 38px;
+  width: 38px;
+  border-radius: 20px;
+  position: absolute;
+  left: 1150px;
+  top: 190px;
+
+
+}
+
+.me-hobby-astro-name {
+
+  position: absolute;
+  left: 1200px;
+  top: 165px;
+  color: white;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+
+}
+
+.me-hobby-astro-bio {
+
+  position: absolute;
+  left: 1200px;
+  top: 190px;
+  color: grey;
+  font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.me-hobby-video-img {
+
+  height: 38px;
+  width: 38px;
+  border-radius: 20px;
+  position: absolute;
+  left: 1150px;
+  top: 250px;
+
+}
+
+.me-hobby-video-name {
+
+  position: absolute;
+  left: 1200px;
+  top: 225px;
+  color: white;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+.me-hobby-video-bio {
+
+  position: absolute;
+  left: 1200px;
+  top: 250px;
+  color: grey;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+.me-hobby-net-img {
+
+  height: 38px;
+  width: 38px;
+  border-radius: 20px;
+  position: absolute;
+  left: 1150px;
+  top: 310px;
+
+}
+
+.me-hobby-net-name {
+
+  position: absolute;
+  left: 1200px;
+  top: 285px;
+  color: white;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+.me-hobby-net-bio {
+
+
+  position: absolute;
+  left: 1200px;
+  top: 310px;
+  color: grey;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+.me-hobby-anime-img {
+
+
+  height: 38px;
+  width: 38px;
+  border-radius: 20px;
+  position: absolute;
+  left: 1150px;
+  top: 370px;
+
+}
+
+.me-hobby-anime-name {
+
+  position: absolute;
+  left: 1200px;
+  top: 345px;
+  color: white;
+  font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.me-hobby-anime-bio {
+
+
+  position: absolute;
+  left: 1200px;
+  top: 370px;
+  color: grey;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+
+
+}
+
+.copyright {
+
+  position: absolute;
+  left: 1150px;
+  top: 430px;
+  color: grey;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+.a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+.follow1 {
+  text-decoration: none;
+  position: absolute;
+  left: 1420px;
+  top: 190px;
+  color: skyblue;
+  font-family: 'Ysabeau SC', sans-serif;
+
+
+
+}
+
+.follow2 {
+
+  position: absolute;
+  left: 1420px;
+  top: 250px;
+  color: skyblue;
+  font-family: 'Ysabeau SC', sans-serif;
+  text-decoration: none;
+
+
+
+}
+
+.follow3 {
+
+  position: absolute;
+  left: 1420px;
+  top: 310px;
+  color: skyblue;
+  font-family: 'Ysabeau SC', sans-serif;
+  text-decoration: none;
+
+
+
+}
+
+.follow4 {
+
+  position: absolute;
+  left: 1420px;
+  top: 370px;
+  color: skyblue;
+  font-family: 'Ysabeau SC', sans-serif;
+  text-decoration: none;
+
+
+
+
+}
+
+.aesthetic {
+  position: absolute;
+  top: 35%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+}
+
+.sharad-profile {
+
+  /* border: solid white; */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+  margin-left: 500px;
+  margin-top: 160px;
+  position: absolute;
+  height: 600px;
+  width: 450px;
+
+}
+
+.sharad-profile1 {
+
+  /* border: solid white; */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+  margin-left: 500px;
+  margin-top: 800px;
+  position: absolute;
+  height: 600px;
+  width: 450px;
+
+
+}
+
+.sharad-profile2 {
+
+  /* border: solid white; */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+  margin-left: 500px;
+  margin-top: 1440px;
+  position: absolute;
+  height: 600px;
+  width: 450px;
+
+
+}
+
+.sharad-profile3 {
+
+  /* border: solid white; */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+  margin-left: 500px;
+  margin-top: 2060px;
+  position: absolute;
+  height: 600px;
+  width: 450px;
+
+
+}
+
+.sharad-profile4 {
+
+  /* border: solid white; */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+  margin-left: 500px;
+  margin-top: 2680px;
+  position: absolute;
+  height: 600px;
+  width: 450px;
+
+
+}
+
+.sharad-profile5 {
+
+  /* border: solid white; */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+  margin-left: 500px;
+  margin-top: 3300px;
+  position: absolute;
+  height: 600px;
+  width: 450px;
+
+
+}
+
+.sharad-profile6 {
+
+  /* border: solid white; */
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, orange, purple, pink) 1;
+  margin-left: 500px;
+  margin-top: 3920px;
+  position: absolute;
+  height: 600px;
+  width: 450px;
+
+
+}
+
+.no-style-link {
+
+  text-decoration: none;
+  color: inherit;
+}
+
+.above-story-hr {
+  display: none;
+}
+
+.below-story-hr {
+  display: none;
+}
+
+.about-me {
+
+  position: absolute;
+  top: -8px;
+  left: 360px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.cloud-img {
+  height: 550px;
+  width: 450px;
+  margin-top: 35px;
+  opacity: 0.3;
+}
+
+.hi-name-sharad {
+
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+
+}
+
+@media screen and (max-width:1280px) {
+
+  .main-story-hobby-all-container {
+
+    /* margin-right: 100px; */
+    position: relative;
+    right: 200px;
+
+  }
+
+  .start-me {
+    position: relative;
+    right: 50px;
+  }
+
+  .story-div {
+    margin-right: 100px;
+  }
+
+  .all-container {
+
+    margin-right: 50px;
+
+  }
+
+  .me-hobby {
+
+    width: 240px;
+    max-lines: 1;
+
+  }
+
+  .me-hobby-anime-bio {
+
+    width: 240px;
+    max-lines: 1;
+
+  }
+
+  .me-hobby-astro-bio {
+
+    width: 240px;
+    max-lines: 1;
+
+  }
+
+  .me-hobby-video-bio {
+
+    width: 240px;
+    max-lines: 1;
+
+  }
+
+  .me-hobby-net-bio {
+
+    width: 240px;
+    max-lines: 1;
+
+  }
+
+  .copyright {
+
+    width: 240px;
+    max-lines: 1;
+  }
+
+  .me-hobby-video-name {
+    width: 240px;
+    max-lines: 1;
+  }
+
+
+}
+
+#mobile-nav-hr {
+
+  display: none;
+
+}
+
+.name-two {
+
+  display: none;
+
+}
+
+.start-me{
+
+  viewport-fit: 10;
+
+}
+
+
+
+
+
+/* Styles for mobile devices with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  /* Hide the text and display only the images */
+  /* .nav-items {
+      display: none;
+    }
+  
+    .profile {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    /* Adjust the navbar layout for mobile 
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 25px;
+      background-color: black;
+      box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    #mobile-nav-hr{
+
+        display: none;
+        margin-block-start: 0;
+        width: 100%;
+        height: 0%;
+        border-color: white;
+
+    } */
+
+  .nav-items {
+    display: none;
+  }
+
+  .profile {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Adjust the navbar layout for mobile */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    background-color: transparent;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    /* Ensure the navbar is positioned above other content */
+  }
+
+  #mobile-nav-hr {
+    display: none;
+    margin-block-start: 0;
+    width: 100%;
+    height: 0%;
+    border-color: white;
+  }
+
+  body {
+    padding-bottom: 80px;
+    /* Add padding to the bottom of the body to prevent content from being hidden behind the navbar */
+  }
+
+
+
+  #vertical-line {
+
+    display: none;
+
+  }
+
+  .name-two {
+
+    height: 5px;
+    position: relative;
+    left: 460px;
+    bottom: 10px;
+    display: inline-block;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+
+  }
+
+  .sch1 {
+    font-size: 20px;
+    max-lines: 1;
+    position: relative;
+    left: 85%;
+    margin-left: 30px;
+    width: 80%;
+
+  }
+
+  .sch2 {
+    margin-top: 40px;
+  }
+
+  .sch1-sc {
+
+    font-size: 20px;
+    max-lines: 1;
+    position: relative;
+    left: 85%;
+    margin-left: 30px;
+    width: 80%;
+
+  }
+
+  .above-story-hr {
+
+    position: relative;
+    left: 365px;
+    /* width: 100%; */
+
+    display: block;
+    /* background-color: white; */
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(45deg, orange, purple, pink) 1;
+
+  }
+
+  .below-story-hr {
+
+    position: relative;
+    left: 365px;
+    bottom: 30px;
+    display: block;
+    /* background-color: white; */
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(45deg, orange, purple, pink) 1;
+
+
+  }
+
+  .ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .no-style-link {
+    text-decoration: none;
+  }
+
+  .hi-name-sharad {
+
+    font-size: 25px;
+    padding-inline-start: 12;
+    margin-left: 50px;
+    width: 80%;
+
+  }
+
+  .no-style-link:hover {
+    opacity: 0.7;
+  }
+
+  body {
+    margin-bottom: 40px;
+    /* Adjust this value to fit your content */
+  }
+
+  .content {
+    margin-bottom: 10px;
+    /* Same value as body margin-bottom */
+  }
+
+  .story-div {
+
+    position: relative;
+    right: 75px;
+    bottom: 19px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border: none;
+    height: 100px;
+
+
+  }
+
+  .main {
+
+
+    position: relative;
+    right: 130px;
+    bottom: 175px;
+
+  }
+
+  .ex {
+    display: none;
+  }
+
+  .pr {
+    display: none;
+  }
+
+  .sharad-profile {
+    width: 100%;
+  }
+
+  .sharad-profile1 {
+    width: 100%;
+  }
+
+  .about-me {
+
+    /* position: relative;
+      left: 300px; */
+
+    display: none;
+
+  }
+
+  .main-story-hobby-all-container {
+
+    width: 100%;
+    position: relative;
+    right: 342px;
+
+  }
+
+  .cloud-img {
+
+    /* width: 310px; */
+    width: 100%;
+    height: 550px;
+
+  }
+
+  .aesthetic {
+
+    font-size: 15px;
+
+
+  }
+
+  .poem {
+
+    font-size: 12px;
+
+  }
+
+  .school-img {
+
+    width: 10px;
+    height: 10px;
+
+  }
+
+  .edu-text {
+
+    display: none;
+
+  }
+
+  .start-me {
+    position: relative;
+    right: 780px;
+    top: 3620px;
+    width: 100%;
+  }
+
+  .sharad-profile2 {
+
+    width: 100%;
+
+
+
+
+  }
+
+  .sharad-profile3 {
+    width: 100%;
+
+
+  }
+
+  .sharad-profile4 {
+    width: 100%;
+
+
+  }
+
+  .sharad-profile5 {
+    width: 100%;
+
+
+  }
+
+  .sharad-profile6 {
+    width: 100%;
+
+  }
+
+  .skil {
+    display: none;
+  }
+
+  .coding-img {
+    width: 100%;
+  }
+
+  .and {
+    margin-left: 10px;
+  }
+
+  .touch {
+    margin-left: 10px;
+  }
+
+  .news-app {
+    font-size: 13px;
+  }
+
+  .astro-app {
+    font-size: 13px;
+  }
+
+  .astro-app-title {
+    margin-left: 40px;
+    width: 80%;
+  }
+
+  .intern {
+    margin-left: 75px;
+    width: 80%;
+
+  }
+
+  .intern-info {
+
+    font-size: 14px;
+  }
+
+  .me-pic {
+    display: none;
+
+  }
+
+  .me-name {
+
+    display: none;
+  }
+
+  .me-bio {
+    display: none;
+  }
+
+  .me-switch {
+    display: none;
+  }
+
+}
+
+.intern-info {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+  word-spacing: 3px;
+}
+
+.intern {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+}
+
+.astro-app-title {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+}
+
+.astro-app {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+  word-spacing: 3px;
+}
+
+.news-app {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+  word-spacing: 3px;
+}
+
+.touch {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+}
+
+.and {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+}
+
+.sch1-sc {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+}
+
+.sch1-sch2 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+}
+
+
+.sch1-sch {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+}
+
+.sch1 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+}
+
+.coding-img {
+  width: 100%;
+  height: 550px;
+}
+
+.school-img {
+  height: 550px;
+  width: 100%;
+  margin-top: 35px;
+  opacity: 0.4;
+}
+
+.poem {
+
+  position: absolute;
+  top: 65%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ysabeau SC', sans-serif;
+  color: white;
+
+}
